@@ -10,6 +10,10 @@
   },
   "homepage": "https://github.com/Gilles30/api-sure#readme",
   "dependencies": {
-    "json-server": "^0.17.0"
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
   }
 }
